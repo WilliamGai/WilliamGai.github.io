@@ -1,6 +1,6 @@
 ## 设计模式之美
-
-You can use the [editor on GitHub](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+  
+  [编辑目录](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/README.md)
 
 
 
