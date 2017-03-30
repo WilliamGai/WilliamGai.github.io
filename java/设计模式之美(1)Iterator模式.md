@@ -124,4 +124,11 @@ Iterator还有一些小细节
 - 5 ArrayList和Iterable的继承关系
     `ArrayList`是`AbstractList`的子类,`AbstractList`提供了两个迭代器`Itr`和`ListItr`,但是`ArryList`自己重新实现了这两个迭代器。在迭代器的`next`和`remove`和`forEachRemaining`方法中均能抛出`ConcurrentModificationException`异常
     有兴趣的可以对比下ArrayList自己的Itr和AbstractList的Itr的异同。
-    
+          
+- remove 和 next
+    ![image](image/gof_iterator_01.PNG)
+      
+-      forEachRemaining
+  
+  
+    ![image](image/gof_iterator_02.PNG)
