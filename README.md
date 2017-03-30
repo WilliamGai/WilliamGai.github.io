@@ -26,7 +26,12 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](git.PNG)
+[Link](url) and ![Image](./git.PNG)
+  
+  [Image](./git.)
+  
+   
+   ![icon](https://williamgai.github.io/git.PNG)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
