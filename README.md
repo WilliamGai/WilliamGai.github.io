@@ -1,44 +1,18 @@
 ## 设计模式之美
 
- [编辑](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/README.md) 
+You can use the [editor on GitHub](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+
 
 ### 文章列表
 
 [设计模式之美(1)Iterator模式](https://williamgai.github.io/java/设计模式之美(1)Iterator模式) 
   
-  
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ ![icon](git.PNG)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](./git.PNG)
-  
-  [Image](./git.)
-  
-   
-   ![icon](https://williamgai.github.io/git.PNG)
-```
-  ![icon](git.PNG)
- ![icon](https://williamgai.github.io/git.PNG)
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WilliamGai/WilliamGai.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Support of git
+[更改主题](https://github.com/WilliamGai/WilliamGai.github.io/settings)
+[参考](https://help.github.com/categories/github-pages-basics/) 
+[书写参考](https://guides.github.com/features/mastering-markdown/)
