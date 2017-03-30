@@ -24,7 +24,8 @@ public interface Iterator<E> {
 public interface Iterable<T> {
     Iterator<T> iterator();
 }
-```
+```  
+
 ### 2 然后写一个类实现Iterator,即迭代器, 这个类可以是单独的一个类。在ArryayList的设计里,Itr是设计在ArrayList的内部类
 ``` java
     private class Itr implements Iterator<E> {
@@ -48,14 +49,16 @@ public interface Iterable<T> {
             return (E) elementData[lastRet = i];
         }
     }
-```
+```  
+
 ### 3 ArrayList 实现Iterable
 ``` java
     
     public Iterator<E> iterator() {
         return new Itr();
     }
-```
+```  
+
 ##  思考
 使用 _Iterator_ 这样写有什么好处呢？
 1.引入Iterator后可以将比哪里与实现分离开
