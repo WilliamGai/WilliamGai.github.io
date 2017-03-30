@@ -13,8 +13,8 @@
 
 
 ### Support of git
-[更改主题](https://github.com/WilliamGai/WilliamGai.github.io/settings)
+<font size=7>[更改主题](https://github.com/WilliamGai/WilliamGai.github.io/settings)</font>
 
-[参考](https://help.github.com/categories/github-pages-basics/) 
+<font size=7>[参考](https://help.github.com/categories/github-pages-basics/) </font>
 
-[书写参考](https://guides.github.com/features/mastering-markdown/)
+<font size=7>[书写参考](https://guides.github.com/features/mastering-markdown/)</font>
