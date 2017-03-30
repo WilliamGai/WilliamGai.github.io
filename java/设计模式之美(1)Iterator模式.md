@@ -1,6 +1,8 @@
 
 # 设计模式(1)Iterator模式
 Iterator是java集合框架的成员,使用了设计模式中的Iterator模式
+  
+  我们从API中将这种方式提炼出来
 ``` java
 public interface Iterator<E> {
     boolean hasNext();
