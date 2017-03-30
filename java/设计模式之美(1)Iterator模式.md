@@ -6,7 +6,74 @@
   
 Iterator是java集合框架的成员,使用了设计模式中的Iterator模式
   
-  我们从API中将这种方式提炼出来
+  我们从API中将这种方式提炼出来，并且了解List的设计
+  
+##  Iterator核心设计
+Iterator设计核心
+### 1 定义接口
+
+- Iterator
+``` java
+public interface Iterator<E> {
+    boolean hasNext();
+    E next();
+}
+```
+- Iterable 用来给实现类继承
+``` java
+public interface Iterable<T> {
+    Iterator<T> iterator();
+}
+```
+### 2 然后写一个类实现Iterator,即迭代器, 这个类可以是单独的一个类。在ArryayList的设计里,Itr是设计在ArrayList的内部类
+``` java
+    private class Itr implements Iterator<E> {
+        int cursor;       // index of next element to return
+        int lastRet = -1; // index of last element returned; -1 if no such
+        int expectedModCount = modCount;
+
+        public boolean hasNext() {
+            return cursor != size;
+        }
+
+        public E next() {
+            checkForComodification();
+            int i = cursor;
+            if (i >= size)
+                throw new NoSuchElementException();
+            Object[] elementData = ArrayList.this.elementData;
+            if (i >= elementData.length)
+                throw new ConcurrentModificationException();
+            cursor = i + 1;
+            return (E) elementData[lastRet = i];
+        }
+    }
+```
+### 3 ArrayList 实现Iterable
+``` java
+    
+    public Iterator<E> iterator() {
+        return new Itr();
+    }
+```
+- 思考
+使用 _Iterator_ 这样写有什么好处呢？
+1.引入Iterator后可以将比哪里与实现分离开
+``` java
+    List<Integer> list = new ArrayList<>();
+    list.addAll(Arrays.asList(1, 2, 3, 4, 5));
+    Iterator<Integer> it = list.iterator();
+	while(it.hasNext()){
+		System.out.println(it.next());
+	}
+```
+   显然`while`循环并不依赖于`ArraysList`的实现。当API编写人员不用数组来实现`ArrayList`而是用其他的方式,只要能返回正确的`Iterator`实例,`hasNext`方法和`next`方法可以正常工作。不对上面方法做任何修改，代码都可以正常工作。对于`ArrayList`的调用者来说非常方便。
+   设计模式的作用就是帮助我们编写可复用的类。所谓“可复用”就是指将类实现为“组件”，当一个组件发生改变时，不需要对其他的组件进行修改或者只需要很小的修改即可对应。
+这要也就理解为什么示例程序中`iterator()`的返回值不是、`Itr`而是`Iterator`了。
+
+
+
+- 1 
 ``` java
 public interface Iterator<E> {
     boolean hasNext();
