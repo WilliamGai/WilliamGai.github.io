@@ -1,8 +1,6 @@
 ## 设计模式之美
 
-You can use the [editor on GitHub](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-
+ [编辑](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/README.md) 
 
 ### 文章列表
 
@@ -33,6 +31,7 @@ Syntax highlighted code block
    
    ![icon](https://williamgai.github.io/git.PNG)
 ```
+  ![icon](git.PNG)
  ![icon](https://williamgai.github.io/git.PNG)
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
