@@ -13,8 +13,6 @@
 ---
 
 [更改主题](https://github.com/WilliamGai/WilliamGai.github.io/settings)  
-
 [参考](https://help.github.com/categories/github-pages-basics/)  
-
 [书写参考](https://guides.github.com/features/mastering-markdown/)  
 
