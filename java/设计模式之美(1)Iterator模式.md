@@ -71,84 +71,57 @@ public interface Iterable<T> {
    设计模式的作用就是帮助我们编写可复用的类。所谓“可复用”就是指将类实现为“组件”，当一个组件发生改变时，不需要对其他的组件进行修改或者只需要很小的修改即可对应。
 这要也就理解为什么示例程序中`iterator()`的返回值不是、`Itr`而是`Iterator`了。
 
+实际上新的API版本中
+Iterator还有一些小细节
 
+- 1 刚才我们已经可以看到我们的接口定义使用了泛型,这说明我们例子的版本已经时JDK1.5或者更新,更旧的版本我们就不讨论了。我一般看jdk1.8
+- 3 我们可以看到每次调用ArryaList的迭代器`Iterator()`都会new 一个 Itr()。虽然java对象有自动回收机制。但是这里可不可以用工厂模式来获得？
+- 4 java 8 中接口可以定义defalut方法,且接口和类通过继承来获得(接口的静态方法不能继承)。Iterator接口额外提供了`e.remove() `而 Iterable接口额外提供了`foreach()`。最终ArrayList提供的`Itr`覆盖了`default remove()`方法。ArrayList自己覆盖了`foreach()`方法。
 
-- 1 
+  真正的API里的Iterator做了扩展
+- 4.1 Iterator
 ``` java
-public interface Iterator<E> {
-    boolean hasNext();
+    public interface Iterator<E> {
+        boolean hasNext();
 
-    E next();
+        E next();
 
-    default void remove() {
-        throw new UnsupportedOperationException("remove");
-    }
+        default void remove() {
+            throw new UnsupportedOperationException("remove");
+        }
 
-    /**
-     * @implSpec
-     * <p>The default implementation behaves as if:
-     * <pre>{@code
-     *     while (hasNext())
-     *         action.accept(next());
-     * }</pre>
-     * @since 1.8
-     */
-    default void forEachRemaining(Consumer<? super E> action) {
-        Objects.requireNonNull(action);
-        while (hasNext())
-            action.accept(next());
-    }
-}
+        /**
+         * behaves as if:
+         *     while (hasNext())
+          *         action.accept(next());
+         * @since 1.8
+         */
+        default void forEachRemaining(Consumer<? super E> action) {
+            Objects.requireNonNull(action);
+            while (hasNext())
+                action.accept(next());
+        	}
+    	}
 ```
 
-
+- 4.2 Iterable
 ``` java
-/**
- * Implementing this interface allows an object to be the target of the "for-each loop" statement.
- */
-public interface Iterable<T> {
-    Iterator<T> iterator();
+    public interface Iterable<T> {
+        Iterator<T> iterator();
 
-    /**
-     * @implSpec
-     * <p>The default implementation behaves as if:
-     * <pre>{@code
-     *     for (T t : this)
-     *         action.accept(t);
-     * }</pre>
-     * @since 1.8
-     */
-    default void forEach(Consumer<? super T> action) {
-        Objects.requireNonNull(action);
-        for (T t : this) {
-            action.accept(t);
+        default void forEach(Consumer<? super T> action) {
+            Objects.requireNonNull(action);
+            for (T t : this) {
+                action.accept(t);
+            }
+        }
+
+        default Spliterator<T> spliterator() {
+            return Spliterators.spliteratorUnknownSize(iterator(), 0);
         }
     }
-
-    /**
-     * Creates a {@link Spliterator} over the elements described by this
-     * {@code Iterable}.
-     *
-     * @implSpec
-     * The default implementation creates an
-     * <em><a href="Spliterator.html#binding">early-binding</a></em>
-     * spliterator from the iterable's {@code Iterator}.  The spliterator
-     * inherits the <em>fail-fast</em> properties of the iterable's iterator.
-     *
-     * @implNote
-     * The default implementation should usually be overridden.  The
-     * spliterator returned by the default implementation has poor splitting
-     * capabilities, is unsized, and does not report any spliterator
-     * characteristics. Implementing classes can nearly always provide a
-     * better implementation.
-     *
-     * @return a {@code Spliterator} over the elements described by this
-     * {@code Iterable}.
-     * @since 1.8
-     */
-    default Spliterator<T> spliterator() {
-        return Spliterators.spliteratorUnknownSize(iterator(), 0);
-    }
-}
-
 ```
+- 5 ArrayList和Iterable的继承关系
+    `ArrayList`是`AbstractList`的子类,`AbstractList`提供了两个迭代器`Itr`和`ListItr`,但是`ArryList`自己重新实现了这两个迭代器。在迭代器的`next`和`remove`和`forEachRemaining`方法中均能抛出`ConcurrentModificationException`异常
+    有兴趣的可以对比下ArrayList自己的Itr和AbstractList的Itr的异同。
+    
