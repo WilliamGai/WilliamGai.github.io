@@ -9,7 +9,7 @@ Iterator是java集合框架的成员,使用了设计模式中的Iterator模式
   我们从API中将这种方式提炼出来，并且了解List的设计
   
 ##  Iterator核心设计
-Iterator设计核心
+
 ### 1 定义接口
 
 - Iterator
