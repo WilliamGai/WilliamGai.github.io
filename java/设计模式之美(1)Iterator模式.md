@@ -128,7 +128,7 @@ Iterator还有一些小细节
 - remove 和 next
     ![image](image/gof_iterator_01.PNG)
       
--      forEachRemaining
+- forEachRemaining
   
   
     ![image](image/gof_iterator_02.PNG)
