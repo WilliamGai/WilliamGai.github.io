@@ -33,7 +33,7 @@ Syntax highlighted code block
    
    ![icon](https://williamgai.github.io/git.PNG)
 ```
-
+ ![icon](https://williamgai.github.io/git.PNG)
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
