@@ -1,6 +1,6 @@
 
 # 设计模式(1)Iterator模式
-<font>[编辑](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/java/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E7%BE%8E(1)Iterator%E6%A8%A1%E5%BC%8F.md)<font/>
+<font>[编辑文章](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/java/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E7%BE%8E(1)Iterator%E6%A8%A1%E5%BC%8F.md)<font/>
   
   
 Iterator是java集合框架的成员,使用了设计模式中的Iterator模式
