@@ -56,7 +56,7 @@ public interface Iterable<T> {
         return new Itr();
     }
 ```
-- 思考
+##  思考
 使用 _Iterator_ 这样写有什么好处呢？
 1.引入Iterator后可以将比哪里与实现分离开
 ``` java
