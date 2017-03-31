@@ -61,7 +61,7 @@ public interface Iterable<T> {
 
 ##  思考
 Q:使用 _Iterator_ 这样写有什么好处呢?  
-A:引入Iterator后可以将比哪里与实现分离开
+A:引入Iterator后可以将遍历与实现分离开
 ``` java
     List<Integer> list = new ArrayList<>();
     list.addAll(Arrays.asList(1, 2, 3, 4, 5));
