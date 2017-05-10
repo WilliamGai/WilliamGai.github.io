@@ -185,7 +185,7 @@
 [二维码URL自动辨别Android和ISO设备，以便扫码后倒入不同的下载链接（2015-07-21 17:17）](http://blog.csdn.net/kkgbn/article/details/46989061)  
 [Android 配置环境变量（2015-06-11 21:10）](http://blog.csdn.net/kkgbn/article/details/46461947)  
 [java 到底老年代和年轻代的比例为多大合适呢？（2015-06-06 11:38）](http://blog.csdn.net/kkgbn/article/details/46386643)  
-[List<Long> 转为 long[]（2015-05-27 09:57）](http://blog.csdn.net/kkgbn/article/details/46042807)  
+[`List<Long> 转为 long[]（2015-05-27 09:57）`](http://blog.csdn.net/kkgbn/article/details/46042807) `
 []()  
 []()  
 []()  
