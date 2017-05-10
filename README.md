@@ -10,7 +10,7 @@
   
 
 ## 公开的文章  
-[JVM (1) JVM为什么需要GC？](http://blog.csdn.net/kkgbn/article/details/59484675)
+[JVM (1) JVM为什么需要GC？](http://blog.csdn.net/kkgbn/article/details/59484675)  
 [关于数据序列化（4）自定义序列化的实现，支持常用集合框架](http://blog.csdn.net/kkgbn/article/details/71213810)  
 [REDIS 学习（10）流程图解使用redis实现分布式锁](http://blog.csdn.net/kkgbn/article/details/52691864)  
 [javaAPI深入理解（2）Collection,List的设计，ListIterator与Iterator,RandomAccess，List排序、逆序以及其他](http://blog.csdn.net/kkgbn/article/details/71474265)  
