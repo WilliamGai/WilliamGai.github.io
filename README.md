@@ -218,7 +218,7 @@
 [git(1) git 快速入门，如何提交自己的工程](http://blog.csdn.net/kkgbn/article/details/53871379)  
 
 
----
+---  
 ### Python  
 [python十分钟入门（2014-05-06 11:23）](http://blog.csdn.net/kkgbn/article/details/25110817)  
 [python 的 remove 和 pop 好奇怪（2014-05-05 21:01）](http://blog.csdn.net/kkgbn/article/details/25076881)  
@@ -227,8 +227,7 @@
 [python中的异常（2014-05-29 21:03）](http://blog.csdn.net/kkgbn/article/details/27568385)  
 [pyhton 字典 变量 起名不能是dict（2014-05-21 14:16）pyhton 字典 变量 起名不能是dict（2014-05-21 14:16）](http://blog.csdn.net/kkgbn/article/details/26470185)  
 [Python：去掉粘贴代码后的行号（2014-05-19 20:10）](http://blog.csdn.net/kkgbn/article/details/26281277)  
----
-
+---  
 ### 设计模式，逻辑，算法，协议  
 [对称加密技AES 在手机上运行（2014-04-22 15:10）](http://blog.csdn.net/kkgbn/article/details/24308809)  
 [游戏Algorithm----数组重排：将数组中的元素，根据值放到与坐标相等的位置（2014-04-17 12:09）](http://blog.csdn.net/kkgbn/article/details/23923611)  
