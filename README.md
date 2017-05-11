@@ -5,8 +5,8 @@
  ![icon](git.PNG)
 
 ## 文章列表  
-
 [设计模式之美(1)Iterator模式](https://williamgai.github.io/java/设计模式之美(1)Iterator模式) 
+
   
 
 ## 作者博客  
@@ -174,8 +174,8 @@
 [java 多线程注意事项](http://blog.csdn.net/kkgbn/article/details/56279659)  
 [Android多线程问题。android.os.NetworkOnMainThreadException](http://blog.csdn.net/kkgbn/article/details/50395335)  
 
----
-### java 序列化
+---  
+### java 序列化  
 [关于数据序列化（4）自定义序列化的实现，支持常用集合框架](http://blog.csdn.net/kkgbn/article/details/71213810)  
 [关于数据序列化（3），使用JSON的方式，以及几个注意的点,以及fastJson的坑](http://blog.csdn.net/kkgbn/article/details/52104314) 
 [关于数据序列化（2）二进制流示例](http://blog.csdn.net/kkgbn/article/details/44801947)  
@@ -213,7 +213,6 @@
 [`maven(2)[FATAL] Non-resolvable parent POM for 的...问题`](http://blog.csdn.net/kkgbn/article/details/59483123)  
 [maven windows下安装和使用 已经几个命令说明](http://blog.csdn.net/kkgbn/article/details/51361567)  
 [log4j和logback冲突 mvn](http://blog.csdn.net/kkgbn/article/details/55194940)  
-
 [git(2) git pull特别慢的解决方法](http://blog.csdn.net/kkgbn/article/details/54351787)  
 [git(1) git 快速入门，如何提交自己的工程](http://blog.csdn.net/kkgbn/article/details/53871379)  
 ---  
