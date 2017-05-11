@@ -157,7 +157,7 @@
 [Redis内部数据结构总结（5）skiplist](http://blog.csdn.net/kkgbn/article/details/52997761)  
 [redis内部数据结构总结（7）intset](http://blog.csdn.net/kkgbn/article/details/54986534)  
 
---- 
+---  
 ### JAVA 8 并发增强  
 [JAVA 8 并发增强 (5) 线程安全的Set](http://blog.csdn.net/kkgbn/article/details/52164838)  
 [JAVA 8 并发增强 (6)并行数组](http://blog.csdn.net/kkgbn/article/details/52168623)
@@ -166,6 +166,7 @@
 [JAVA 8 并发增强 (3)ConcurrentHashMap改进](http://blog.csdn.net/kkgbn/article/details/52163306)  
 [JAVA 8 并发增强 (2)乐观读](http://blog.csdn.net/kkgbn/article/details/52162708)  
 [JAVA 8 并发增强(1) 多线程修改某个计数器的方式](http://blog.csdn.net/kkgbn/article/details/52061811)  
+
 ---  
 ### JAVA 并发 多线程  
 [Java控制并发 AtomicBoolean Lock Volatile](http://blog.csdn.net/kkgbn/article/details/37903577)  
