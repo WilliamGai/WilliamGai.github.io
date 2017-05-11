@@ -193,7 +193,7 @@
 [一个故事讲清楚NIO](http://blog.csdn.net/kkgbn/article/details/52672786)  
 [`网络，file 从InputStream读取byte[]示例`](http://blog.csdn.net/kkgbn/article/details/55046052)  
 
----
+---  
 ### JAVA  分布式  
 [由浅入深分布式（5）dubbo提供者用内网地址注册provider以及 spring boot admin client用主机名注册spring boot admin server](http://blog.csdn.net/kkgbn/article/details/56671442)  
 [由浅入深写java分布式(4)基于注解 dubbo 一个app同时存在consumer和provider自启动失败的问题，以dubbo和spring注解加载顺序的问题](http://blog.csdn.net/kkgbn/article/details/55670069)  
@@ -216,8 +216,6 @@
 
 [git(2) git pull特别慢的解决方法](http://blog.csdn.net/kkgbn/article/details/54351787)  
 [git(1) git 快速入门，如何提交自己的工程](http://blog.csdn.net/kkgbn/article/details/53871379)  
-
-
 ---  
 ### Python  
 [python十分钟入门（2014-05-06 11:23）](http://blog.csdn.net/kkgbn/article/details/25110817)  
@@ -267,8 +265,6 @@
 [webim如何用轮询保证消息绝对实时（2015-05-04 17:27）](http://blog.csdn.net/kkgbn/article/details/45483671)  
 [从游戏概念开始：迈出游戏开发的第一步（2014-07-08 18:02）](http://blog.csdn.net/kkgbn/article/details/37568671)  
 [手游服务器结构（2015-03-23 21:58）](http://blog.csdn.net/kkgbn/article/details/44571089)  
-
----  
 ---  
 ### IDE  
 [如何查看IDEA的快捷键设置](http://blog.csdn.net/kkgbn/article/details/53436685)  
@@ -276,10 +272,10 @@
 [eclipse 调试，选择编译级别](http://blog.csdn.net/kkgbn/article/details/52235941)  
 [Myeclipse 10,删除工程导致 severUI打不开（2015-08-27 18:51）](http://blog.csdn.net/kkgbn/article/details/48032023)  
 [MyEclipse下改项目名称发布在TomCat后,项目名称不变的问题（2015-08-19 14:40）](http://blog.csdn.net/kkgbn/article/details/47780447)  
-[Myeclipse 2014(Myeclipse 10) 安装SVN（2014-07-12 13:19）](http://blog.csdn.net/kkgbn/article/details/37725231)  
-
-### mysql 等rds
-[mysql 更改表名 如何复制表到新建的表？（2014-05-16 13:53）](http://blog.csdn.net/kkgbn/article/details/25972779)  
+[Myeclipse 2014(Myeclipse 10) 安装SVN（2014-07-12 13:19）](http://blog.csdn.net/kkgbn/article/details/37725231)  
+---  
+### mysql 等rds  
+[mysql 更改表名 如何复制表到新建的表？（2014-05-16 13:53）](http://blog.csdn.net/kkgbn/article/details/25972779)  
 [MYSQL：Cannot convert value '0000-00-00 00:00:00' from column 10 to TIMESTAMP的解决办法（2014-05-06 16:03）](http://blog.csdn.net/kkgbn/article/details/25136927)  
 [mysql字符串不支持emoj表情的处理方法](http://blog.csdn.net/kkgbn/article/details/51944474)  
 [mysql replace into,insert into ... on duplicate key](http://blog.csdn.net/kkgbn/article/details/51917612)  
@@ -289,7 +285,7 @@
 [mysql的备份 和 导出（2014-09-18 11:20）](http://blog.csdn.net/kkgbn/article/details/39369527)  
 [Mysql 查看各个表格的数据量大小](http://blog.csdn.net/kkgbn/article/details/50588210)  
 
-### Linux shell 运维等
+### Linux shell 运维等  
 [Logback手册翻译 Chapter 2: Architecture](http://blog.csdn.net/kkgbn/article/details/32202529)  
 [Logback手册 Chapter 1: Introduction（2014-06-18 23:02）](http://blog.csdn.net/kkgbn/article/details/32190261)  
 [在linux和Windows使用curl](http://blog.csdn.net/kkgbn/article/details/71420214)  
@@ -324,11 +320,8 @@
 [Linux sort 命令详解（2014-06-19 17:04）](http://blog.csdn.net/kkgbn/article/details/32334715)  
 [Linux 文件目录操作指令（2012-07-06 10:22）](http://blog.csdn.net/kkgbn/article/details/7721193)  
 [Linux 系统管理命令（2012-07-06 10:16）](http://blog.csdn.net/kkgbn/article/details/7721162)  
-[Linux 软件包管理（2012-07-06 10:14）](http://blog.csdn.net/kkgbn/article/details/7721146)  
-
-
-
----
+[Linux 软件包管理（2012-07-06 10:14）](http://blog.csdn.net/kkgbn/article/details/7721146)   
+---  
 
 [更改主题](https://github.com/WilliamGai/WilliamGai.github.io/settings)  
 [参考](https://help.github.com/categories/github-pages-basics/)  
