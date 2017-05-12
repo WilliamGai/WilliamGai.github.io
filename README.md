@@ -12,7 +12,7 @@
 ## 作者博客  
 ### JSE 
 [javaAPI深入理解（2）Collection,List的设计，ListIterator与Iterator,RandomAccess，List排序、逆序以及其他](http://blog.csdn.net/kkgbn/article/details/71474265)  
-[javaAPI深入理解（2）如何截短一个List以及List.subList()方法的坑](http://blog.csdn.net/kkgbn/article/details/71169680)  
+[javaAPI深入理解（1）如何截短一个List以及List.subList()方法的坑](http://blog.csdn.net/kkgbn/article/details/71169680)  
 [框架基础(1)使用LinkedHashMap实现LRU缓存](http://blog.csdn.net/kkgbn/article/details/61196596)  
 [java1.8几个漂亮的API设计（2）排序和比较](http://blog.csdn.net/kkgbn/article/details/62891230)  
 [java1.8一个不错的api调用栈（1）](http://blog.csdn.net/kkgbn/article/details/62889985)  
