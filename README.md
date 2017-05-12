@@ -93,7 +93,8 @@
 [spring boot(3) 用mybatis做数据库操作](http://blog.csdn.net/kkgbn/article/details/51432073)  
 [spring-boot(1) 拦截器](http://blog.csdn.net/kkgbn/article/details/51426015)  
 [spring-boot(0) application.properties配置文件和自定义配置文件](http://blog.csdn.net/kkgbn/article/details/51425459)  
----  
+
+---
 ### Nginx Apache
 [Nginx(6) nginx反向代理配置websocket,以及配置后websocket连接后立即断开的解决方法](http://blog.csdn.net/kkgbn/article/details/52278708)  
 [nginx(11) 静态分离时，图片资源获取返回403 forbiden的解决方法](http://blog.csdn.net/kkgbn/article/details/53529620)  
