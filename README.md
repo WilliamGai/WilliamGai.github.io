@@ -1,6 +1,6 @@
-[==REFER TO CSDN==](http://blog.csdn.net/kkgbn) 
+[REFER TO CSDN](http://blog.csdn.net/kkgbn) 
 
-  [编辑目录](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/README.md)
+[编辑目录](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/README.md)
 
  ![icon](starload.jpg)
 
