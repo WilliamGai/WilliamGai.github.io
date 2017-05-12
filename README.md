@@ -1,4 +1,4 @@
-[refer to CSDN](http://blog.csdn.net/kkgbn) 
+[==REFER TO CSDN==](http://blog.csdn.net/kkgbn) 
 
   [编辑目录](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/README.md)
 
@@ -16,7 +16,7 @@
 [框架基础(1)使用LinkedHashMap实现LRU缓存](http://blog.csdn.net/kkgbn/article/details/61196596)  
 [java1.8几个漂亮的API设计（2）排序和比较](http://blog.csdn.net/kkgbn/article/details/62891230)  
 [java1.8一个不错的api调用栈（1）从Stream<?>创建一个Map](http://blog.csdn.net/kkgbn/article/details/62889985)  
-[如何获得方法的default修饰符？JVM规范并没有java8的defalut修饰符](http://blog.csdn.net/kkgbn/article/details/71272688) 
+[如何获得方法的default修饰符？JVM规范并没有java8的defalut修饰符](http://blog.csdn.net/kkgbn/article/details/71272688)  
 [多线程，为每个线程维护变量副本的ThreadLocal](http://blog.csdn.net/kkgbn/article/details/55055845)  
 [java 缓冲池 BufferPool](http://blog.csdn.net/kkgbn/article/details/54891216)  
 [HashMap并发异常小记](http://blog.csdn.net/kkgbn/article/details/52490980)  
