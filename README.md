@@ -181,6 +181,7 @@
 [关于数据序列化（3），使用JSON的方式，以及几个注意的点,以及fastJson的坑](http://blog.csdn.net/kkgbn/article/details/52104314) 
 [关于数据序列化（2）二进制流示例](http://blog.csdn.net/kkgbn/article/details/44801947)  
 [关于数据序列化（1）protobuf 示例(目前不支持Java8貌似)](http://blog.csdn.net/kkgbn/article/details/44786693)  
+
 ---  
 ### JAVA  IO NIO
 [Java NIO浅析](http://blog.csdn.net/kkgbn/article/details/53421241)  
@@ -216,7 +217,8 @@
 [log4j和logback冲突 mvn](http://blog.csdn.net/kkgbn/article/details/55194940)  
 [git(2) git pull特别慢的解决方法](http://blog.csdn.net/kkgbn/article/details/54351787)  
 [git(1) git 快速入门，如何提交自己的工程](http://blog.csdn.net/kkgbn/article/details/53871379)  
----
+
+---  
 ### Python  
 [python十分钟入门（2014-05-06 11:23）](http://blog.csdn.net/kkgbn/article/details/25110817)  
 [python 的 remove 和 pop 好奇怪（2014-05-05 21:01）](http://blog.csdn.net/kkgbn/article/details/25076881)  
@@ -225,6 +227,7 @@
 [python中的异常（2014-05-29 21:03）](http://blog.csdn.net/kkgbn/article/details/27568385)  
 [pyhton 字典 变量 起名不能是dict（2014-05-21 14:16）pyhton 字典 变量 起名不能是dict（2014-05-21 14:16）](http://blog.csdn.net/kkgbn/article/details/26470185)  
 [Python：去掉粘贴代码后的行号（2014-05-19 20:10）](http://blog.csdn.net/kkgbn/article/details/26281277)  
+
 ---  
 ### 设计模式，逻辑，算法，协议  
 [对称加密技AES 在手机上运行（2014-04-22 15:10）](http://blog.csdn.net/kkgbn/article/details/24308809)  
@@ -265,7 +268,8 @@
 [webim如何用轮询保证消息绝对实时（2015-05-04 17:27）](http://blog.csdn.net/kkgbn/article/details/45483671)  
 [从游戏概念开始：迈出游戏开发的第一步（2014-07-08 18:02）](http://blog.csdn.net/kkgbn/article/details/37568671)  
 [手游服务器结构（2015-03-23 21:58）](http://blog.csdn.net/kkgbn/article/details/44571089)  
----   
+
+---  
 ### IDE  
 [如何查看IDEA的快捷键设置](http://blog.csdn.net/kkgbn/article/details/53436685)  
 [IntelliJ IDEA 札记](http://blog.csdn.net/kkgbn/article/details/51035848)  
@@ -273,7 +277,8 @@
 [Myeclipse 10,删除工程导致 severUI打不开（2015-08-27 18:51）](http://blog.csdn.net/kkgbn/article/details/48032023)  
 [MyEclipse下改项目名称发布在TomCat后,项目名称不变的问题（2015-08-19 14:40）](http://blog.csdn.net/kkgbn/article/details/47780447)  
 [Myeclipse 2014(Myeclipse 10) 安装SVN（2014-07-12 13:19）](http://blog.csdn.net/kkgbn/article/details/37725231)  
----
+
+---  
 ### mysql 等rds  
 [mysql 更改表名 如何复制表到新建的表？（2014-05-16 13:53）](http://blog.csdn.net/kkgbn/article/details/25972779)  
 [MYSQL：Cannot convert value '0000-00-00 00:00:00' from column 10 to TIMESTAMP的解决办法（2014-05-06 16:03）](http://blog.csdn.net/kkgbn/article/details/25136927)  
@@ -284,7 +289,8 @@
 [mysql 基本命令，查看mysql是否启动，启动MySQL（2014-09-18 12:04）](http://blog.csdn.net/kkgbn/article/details/39370047)  
 [mysql的备份 和 导出（2014-09-18 11:20）](http://blog.csdn.net/kkgbn/article/details/39369527)  
 [Mysql 查看各个表格的数据量大小](http://blog.csdn.net/kkgbn/article/details/50588210)  
----
+
+---  
 ### Linux shell 运维等  
 [Logback手册翻译 Chapter 2: Architecture](http://blog.csdn.net/kkgbn/article/details/32202529)  
 [Logback手册 Chapter 1: Introduction（2014-06-18 23:02）](http://blog.csdn.net/kkgbn/article/details/32190261)  
