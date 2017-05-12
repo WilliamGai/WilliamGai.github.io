@@ -43,7 +43,7 @@
 
 ### Redis 使用  
 
-[REDIS (12) redis释疑，缓存穿透和雪崩](http://blog.csdn.net/kkgbn/article/details/60576477)  
+[REDIS (12) 缓存的穿透，雪崩和热点key](http://blog.csdn.net/kkgbn/article/details/60576477)  
 [REDIS 进阶(12) redis分片](http://blog.csdn.net/kkgbn/article/details/56012263)  
 [REDIS(11) redis做分页](http://blog.csdn.net/kkgbn/article/details/54947983)  
 
