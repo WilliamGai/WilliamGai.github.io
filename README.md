@@ -1,8 +1,8 @@
-# 设计模式之美
-  
+[refer to CSDN](http://blog.csdn.net/kkgbn) 
+
   [编辑目录](https://github.com/WilliamGai/WilliamGai.github.io/edit/master/README.md)
 
- ![icon](git.PNG)
+ ![icon](starload.jpg)
 
 ## 文章列表  
 [设计模式之美(1)Iterator模式](https://williamgai.github.io/java/设计模式之美(1)Iterator模式) 
@@ -93,7 +93,7 @@
 [spring boot(3) 用mybatis做数据库操作](http://blog.csdn.net/kkgbn/article/details/51432073)  
 [spring-boot(1) 拦截器](http://blog.csdn.net/kkgbn/article/details/51426015)  
 [spring-boot(0) application.properties配置文件和自定义配置文件](http://blog.csdn.net/kkgbn/article/details/51425459)  
-
+---  
 ### Nginx Apache
 [Nginx(6) nginx反向代理配置websocket,以及配置后websocket连接后立即断开的解决方法](http://blog.csdn.net/kkgbn/article/details/52278708)  
 [nginx(11) 静态分离时，图片资源获取返回403 forbiden的解决方法](http://blog.csdn.net/kkgbn/article/details/53529620)  
@@ -215,7 +215,7 @@
 [log4j和logback冲突 mvn](http://blog.csdn.net/kkgbn/article/details/55194940)  
 [git(2) git pull特别慢的解决方法](http://blog.csdn.net/kkgbn/article/details/54351787)  
 [git(1) git 快速入门，如何提交自己的工程](http://blog.csdn.net/kkgbn/article/details/53871379)  
----  
+---
 ### Python  
 [python十分钟入门（2014-05-06 11:23）](http://blog.csdn.net/kkgbn/article/details/25110817)  
 [python 的 remove 和 pop 好奇怪（2014-05-05 21:01）](http://blog.csdn.net/kkgbn/article/details/25076881)  
@@ -264,15 +264,15 @@
 [webim如何用轮询保证消息绝对实时（2015-05-04 17:27）](http://blog.csdn.net/kkgbn/article/details/45483671)  
 [从游戏概念开始：迈出游戏开发的第一步（2014-07-08 18:02）](http://blog.csdn.net/kkgbn/article/details/37568671)  
 [手游服务器结构（2015-03-23 21:58）](http://blog.csdn.net/kkgbn/article/details/44571089)  
----  
+---   
 ### IDE  
 [如何查看IDEA的快捷键设置](http://blog.csdn.net/kkgbn/article/details/53436685)  
 [IntelliJ IDEA 札记](http://blog.csdn.net/kkgbn/article/details/51035848)  
 [eclipse 调试，选择编译级别](http://blog.csdn.net/kkgbn/article/details/52235941)  
 [Myeclipse 10,删除工程导致 severUI打不开（2015-08-27 18:51）](http://blog.csdn.net/kkgbn/article/details/48032023)  
 [MyEclipse下改项目名称发布在TomCat后,项目名称不变的问题（2015-08-19 14:40）](http://blog.csdn.net/kkgbn/article/details/47780447)  
-[Myeclipse 2014(Myeclipse 10) 安装SVN（2014-07-12 13:19）](http://blog.csdn.net/kkgbn/article/details/37725231)  
----  
+[Myeclipse 2014(Myeclipse 10) 安装SVN（2014-07-12 13:19）](http://blog.csdn.net/kkgbn/article/details/37725231)  
+---
 ### mysql 等rds  
 [mysql 更改表名 如何复制表到新建的表？（2014-05-16 13:53）](http://blog.csdn.net/kkgbn/article/details/25972779)  
 [MYSQL：Cannot convert value '0000-00-00 00:00:00' from column 10 to TIMESTAMP的解决办法（2014-05-06 16:03）](http://blog.csdn.net/kkgbn/article/details/25136927)  
@@ -283,7 +283,7 @@
 [mysql 基本命令，查看mysql是否启动，启动MySQL（2014-09-18 12:04）](http://blog.csdn.net/kkgbn/article/details/39370047)  
 [mysql的备份 和 导出（2014-09-18 11:20）](http://blog.csdn.net/kkgbn/article/details/39369527)  
 [Mysql 查看各个表格的数据量大小](http://blog.csdn.net/kkgbn/article/details/50588210)  
-
+---
 ### Linux shell 运维等  
 [Logback手册翻译 Chapter 2: Architecture](http://blog.csdn.net/kkgbn/article/details/32202529)  
 [Logback手册 Chapter 1: Introduction（2014-06-18 23:02）](http://blog.csdn.net/kkgbn/article/details/32190261)  
