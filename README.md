@@ -328,7 +328,9 @@
 [Linux 系统管理命令（2012-07-06 10:16）](http://blog.csdn.net/kkgbn/article/details/7721162)  
 [Linux 软件包管理（2012-07-06 10:14）](http://blog.csdn.net/kkgbn/article/details/7721146)   
 
-===
+---
+
+---
 
 [更改主题](https://github.com/WilliamGai/WilliamGai.github.io/settings)  
 [参考](https://help.github.com/categories/github-pages-basics/)  
