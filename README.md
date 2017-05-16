@@ -34,7 +34,7 @@
 [list删除整理](http://blog.csdn.net/kkgbn/article/details/54093645)  
 [Perhaps you are running on a JRE rather than JDK](http://blog.csdn.net/kkgbn/article/details/50526593)  
 [【Java书写】@SuppressWarnings("unchecked") 以及强制转换和泛型的疑问（2015-04-13 20:29）](http://blog.csdn.net/kkgbn/article/details/45030447)  
-[静态代码块和构造函数的顺序[熟练]（2015-05-26 08:08）](http://blog.csdn.net/kkgbn/article/details/46003183)  
+[静态代码块和构造函数的顺序[熟练]（2015-05-26 08:08）](http://blog.csdn.net/kkgbn/article/details/46003183)  
 [HashMap的key更改后能否正确获取value](http://blog.csdn.net/kkgbn/article/details/26261429)  
 [`List<Long> 转为 long[]（2015-05-27 09:57）`](http://blog.csdn.net/kkgbn/article/details/46042807)  
 [转：深入Java单例模式----绝对最深入（2015-04-08 13:46）](http://blog.csdn.net/kkgbn/article/details/44939825)  
