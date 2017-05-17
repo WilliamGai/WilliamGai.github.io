@@ -16,7 +16,7 @@
 [框架基础(1)使用LinkedHashMap实现LRU缓存](http://blog.csdn.net/kkgbn/article/details/61196596)  
 [java1.8几个漂亮的API设计（2）排序和比较](http://blog.csdn.net/kkgbn/article/details/62891230)  
 [java1.8一个不错的api调用栈（1）从Stream<?>创建一个Map](http://blog.csdn.net/kkgbn/article/details/62889985)  
-[如何获得方法的default修饰符？JVM规范并没有java8的defalut修饰符](http://blog.csdn.net/kkgbn/article/details/71272688)  
+[如何获得方法的default修饰符？规范并没有java8的defalut修饰符](http://blog.csdn.net/kkgbn/article/details/71272688)  
 [多线程，为每个线程维护变量副本的ThreadLocal](http://blog.csdn.net/kkgbn/article/details/55055845)  
 [java 缓冲池 BufferPool](http://blog.csdn.net/kkgbn/article/details/54891216)  
 [HashMap并发异常小记](http://blog.csdn.net/kkgbn/article/details/52490980)  
@@ -65,11 +65,11 @@
 
 ### JVM  
 [JVM8(4)java虚拟机内部结构[熟悉]](http://blog.csdn.net/kkgbn/article/details/72383088)  
-[JVM(3)对象A和B循环引用，最后会不会不被GC回收？-------关于Java的GC机制（2015-03-31 23:49）](http://blog.csdn.net/kkgbn/article/details/44787149)  
+[JVM(3)对象A和B循环引用，最后会不会不被GC回收？--关于Java的GC机制（2015-03-31 23:49）](http://blog.csdn.net/kkgbn/article/details/44787149)   
 [JVM(2)不同的垃圾回收器的比较](http://blog.csdn.net/kkgbn/article/details/45501693)  
 [JVM (1) JVM为什么需要GC？](http://blog.csdn.net/kkgbn/article/details/59484675) 
 [JVM参数，启动jar 包以及 启动tomcat的 JVM参数设置](http://blog.csdn.net/kkgbn/article/details/52045954)  
-[java 到底老年代和年轻代的比例为多大合适呢？（2015-06-06 11:38）](http://blog.csdn.net/kkgbn/article/details/46386643)  
+[java 到底老年代和年轻代的比例为多大合适？（2015-06-06 11:38）](http://blog.csdn.net/kkgbn/article/details/46386643)  
 
 ---
 ### Spring boot
