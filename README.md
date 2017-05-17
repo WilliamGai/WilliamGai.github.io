@@ -11,7 +11,7 @@
 
 ## 作者博客  
 ### JSE 
-[Comparable和Comparator的区别和联系[熟悉]](http://blog.csdn.net/kkgbn/article/details/72420608)   
+[Comparable和Comparator的区别和联系[熟悉]](http://blog.csdn.net/kkgbn/article/details/72420608)    
 [javaAPI深入理解（2）Collection,List的设计，ListIterator与Iterator,RandomAccess，List排序、逆序以及其他](http://blog.csdn.net/kkgbn/article/details/71474265)  
 [javaAPI深入理解（1）如何截短一个List以及List.subList()方法的坑](http://blog.csdn.net/kkgbn/article/details/71169680)  
 [框架基础(1)使用LinkedHashMap实现LRU缓存](http://blog.csdn.net/kkgbn/article/details/61196596)  
