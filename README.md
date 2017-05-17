@@ -64,7 +64,7 @@
 ---
 
 ### JVM  
-[JVM8(4)java虚拟机内部结构[熟悉]](http://blog.csdn.net/kkgbn/article/details/72383088) 
+[JVM8(4)java虚拟机内部结构[熟悉]](http://blog.csdn.net/kkgbn/article/details/72383088)  
 [JVM(3)对象A和B循环引用，最后会不会不被GC回收？-------关于Java的GC机制（2015-03-31 23:49）](http://blog.csdn.net/kkgbn/article/details/44787149)  
 [JVM(2)不同的垃圾回收器的比较](http://blog.csdn.net/kkgbn/article/details/45501693)  
 [JVM (1) JVM为什么需要GC？](http://blog.csdn.net/kkgbn/article/details/59484675) 
