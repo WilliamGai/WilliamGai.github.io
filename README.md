@@ -289,7 +289,7 @@
 [mysql字符串不支持emoj表情的处理方法](http://blog.csdn.net/kkgbn/article/details/51944474)  
 [mysql replace into,insert into ... on duplicate key](http://blog.csdn.net/kkgbn/article/details/51917612)  
 [安装mysq 在linux,以及配置权限, 让某个账户能远程访问并且访问所有数据库](http://blog.csdn.net/kkgbn/article/details/51580375)  
-[MyISAM和InnoDB的区别的粗略理解（2015-04-02 20:27）](http://blog.csdn.net/kkgbn/article/details/44836615)  
+[MyISAM和InnoDB等mysql引擎](http://blog.csdn.net/kkgbn/article/details/44836615)  
 [mysql 基本命令，查看mysql是否启动，启动MySQL（2014-09-18 12:04）](http://blog.csdn.net/kkgbn/article/details/39370047)  
 [mysql的备份 和 导出（2014-09-18 11:20）](http://blog.csdn.net/kkgbn/article/details/39369527)  
 [Mysql 查看各个表格的数据量大小](http://blog.csdn.net/kkgbn/article/details/50588210)  
