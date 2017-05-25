@@ -99,7 +99,8 @@
 [spring-boot(0) application.properties配置文件和自定义配置文件](http://blog.csdn.net/kkgbn/article/details/51425459)  
 
 ---
-### Nginx Apache
+### Nginx Apache  
+[Nginx(12):nginx配置https](http://blog.csdn.net/kkgbn/article/details/72724521)  
 [Nginx(6) nginx反向代理配置websocket,以及配置后websocket连接后立即断开的解决方法](http://blog.csdn.net/kkgbn/article/details/52278708)  
 [nginx(11) 静态分离时，图片资源获取返回403 forbiden的解决方法](http://blog.csdn.net/kkgbn/article/details/53529620)  
 [nginx(11) nginx 配置动静分离，设置默认主页，限制某个路径的资源代理全解](http://blog.csdn.net/kkgbn/article/details/53896485)  
