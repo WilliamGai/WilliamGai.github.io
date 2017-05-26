@@ -213,7 +213,8 @@
 [分布式（集群）与集群的联系与区别（2015-04-09 11:22）](http://blog.csdn.net/kkgbn/article/details/44957455)  
 
 ---  
-### git maven 
+### git maven  
+[maven：Fatal error compiling: 无效的目标 发行版: 1.8 -> [Help 1]（2017-05-27 01:29）(http://blog.csdn.net/kkgbn/article/details/72777750)  
 [ mvn package出现“编码GBK的不可映射字符”](http://blog.csdn.net/kkgbn/article/details/53172247)  
 [maven 将依赖包打入war中](http://blog.csdn.net/kkgbn/article/details/53529348)  
 [maven(3) parent用dependencyManagement控制版本没有传递给module的问题，dependencies.dependency.versionknown-version](http://blog.csdn.net/kkgbn/article/details/60962182)  
