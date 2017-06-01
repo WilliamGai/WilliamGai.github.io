@@ -249,6 +249,7 @@
 [Java 简简单单理解观察者模式（2014-05-13 18:26）](http://blog.csdn.net/kkgbn/article/details/25731987)  
 [基于心理学视角论述游戏排行榜设计（2014-05-14 10:16）](http://blog.csdn.net/kkgbn/article/details/25775983)  
 [游戏中的网络同步机制——Lockstep(转载)](http://blog.csdn.net/kkgbn/article/details/52261056)  
+[设计模式六大原则(5):开放封闭原则（OCP）](http://blog.csdn.net/kkgbn/article/details/72833231)  
 [设计模式六大原则（4）：接口隔离原则（2015-04-07 06:48）](http://blog.csdn.net/kkgbn/article/details/44915643)  
 [设计模式六大原则（3）：依赖倒置原则（2015-04-06 23:06）](http://blog.csdn.net/kkgbn/article/details/44907553)  
 [设计模式六大原则（2）：里氏替换原则（2015-04-06 22:56）](http://blog.csdn.net/kkgbn/article/details/44907465)  
