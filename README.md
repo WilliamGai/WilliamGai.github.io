@@ -76,6 +76,7 @@
 
 ---
 ### Spring boot
+[Spring boot(18) spring mvc请求参数的校验和处理规范（2017-06-22 17:18）](http://blog.csdn.net/kkgbn/article/details/73608849)  
 [Spring boot(17) thymeleaf 使用类似于include的方式](http://blog.csdn.net/kkgbn/article/details/66969454)  
 [Spring boot(16) spring boot 线上故障 上传文件出错:org.springframework.web.multipart.MultipartException: Could](http://blog.csdn.net/kkgbn/article/details/60960972)  
 [Spring boot(15) spring boot admin server作为普通工程的时候，无法访问static文件夹下的静态资源](http://blog.csdn.net/kkgbn/article/details/58614684)  
