@@ -144,6 +144,7 @@
 
 ---
 ### Tomcat  
+[eclispe中配置tomcat使访问路径不在需要项目名称（2017-06-27 18:07）](http://blog.csdn.net/kkgbn/article/details/73812069)  
 [tomcat 集群(1)总结tomcat的server.ml配置cluster的方式,以及Tomcat集群session共享失败的解决方法](http://blog.csdn.net/kkgbn/article/details/52192218)  
 [tomcat 集群(2)总结](http://blog.csdn.net/kkgbn/article/details/52191497)  
 
