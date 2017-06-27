@@ -100,6 +100,10 @@
 [spring-boot(0) application.properties配置文件和自定义配置文件](http://blog.csdn.net/kkgbn/article/details/51425459)  
 
 ---
+### Spring mvc, Spring  
+[The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build（2017-06-27 18:25）](http://blog.csdn.net/kkgbn/article/details/73820527)  
+
+---
 ### Nginx Apache  
 [Nginx(12):nginx配置https](http://blog.csdn.net/kkgbn/article/details/72724521)  
 [Nginx(6) nginx反向代理配置websocket,以及配置后websocket连接后立即断开的解决方法](http://blog.csdn.net/kkgbn/article/details/52278708)  
