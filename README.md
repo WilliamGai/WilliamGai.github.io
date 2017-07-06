@@ -4,9 +4,9 @@
 
  ![icon](starload.jpg)
 
-## 文章列表  
-[设计模式之美(1)Iterator模式](https://williamgai.github.io/java/设计模式之美(1)Iterator模式) 
-
+## 更新博客
+[设计模式之美(1)Iterator模式](https://williamgai.github.io/java/设计模式之美(1)Iterator模式)  
+[如何用Java和Redis设计一个高效的先入先出的队列](http://blog.csdn.net/kkgbn/article/details/74612932)
   
 
 ## 作者博客  
