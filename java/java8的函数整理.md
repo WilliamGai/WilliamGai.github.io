@@ -9,21 +9,19 @@ SSS<T>|无|T|提供一个<T>T类型的值
 函数式接口 | 参数类型 |返回类型 |描述
 ---|---|---|---
 `Supplier<T>`|无|T|提供一个T类型的值  
-
-####
-Consumer<T> | T |void |处理一个T类型的值  
-BiConsumer<T,U> | T, U | void|处理T类型和U类型的值  
-Predicate<T>|T|boolean|一个计算Boolean值的函数  
-ToIntFunction<T>|T |int |计算int值的函数  
-ToLongFunction<T>|T|long|计算long值的函数  
-ToDoubleFunction<T>|T|double|计算double的函数  
-IntFunction<R>|int|R|参数为int类型的函数(特别注意)  
-LongFunction<R>|long|R|参数为long类型的函数  
-DoubleFunction<R>|double|R|参数类型为double的函数  
-Function<T,R>|T|R|一个参数类型为T的函数  
-BiFunction<T,U,R>|T,U|R|一个参数为T和U的函数  
-UnaryOperator<T>|T|T|对T进行一元操作  
-BinaryOperator<T>|T,T|T|对T进行二元操作  
+`Consumer<T>` | T |void |处理一个T类型的值  
+`BiConsumer<T,U>` | T, U | void|处理T类型和U类型的值  
+`Predicate<T>`|T|boolean|一个计算Boolean值的函数  
+`ToIntFunction<T>`|T |int |计算int值的函数  
+`ToLongFunction<T>`|T|long|计算long值的函数  
+`ToDoubleFunction<T>`|T|double|计算double的函数  
+`IntFunction<R>`|int|R|参数为int类型的函数(特别注意)  
+`LongFunction<R>`|long|R|参数为long类型的函数  
+`DoubleFunction<R>`|double|R|参数类型为double的函数  
+`Function<T,R>`|T|R|一个参数类型为T的函数  
+`BiFunction<T,U,R>`|T,U|R|一个参数为T和U的函数  
+`UnaryOperator<T>`|T|T|对T进行一元操作  
+`BinaryOperator<T>`|T,T|T|对T进行二元操作  
 
 ###  常用的函数式接口
 函数式接口 | 参数类型 |返回类型 |抽象方法名|描述|其他方法  
