@@ -1,6 +1,6 @@
-### 在StreamAPI中经常使用的函数式接口
+### 在StreamAPI中经常使用的函数式接口  
 函数式接口 | 参数类型 |返回类型 |描述
----|---|---|---
+---|---|---|---  
 `Supplier<T>`|无|T|提供一个T类型的值  
 `Consumer<T>` | T |void |处理一个T类型的值  
 `BiConsumer<T,U>` | T, U | void|处理T类型和U类型的值  
@@ -16,9 +16,9 @@
 `UnaryOperator<T>`|T|T|对T进行一元操作  
 `BinaryOperator<T>`|T,T|T|对T进行二元操作  
 
-###  常用的函数式接口
+###  常用的函数式接口  
 函数式接口 | 参数类型 |返回类型 |抽象方法名|描述|其他方法  
----|---|---|---|---|---
+---|---|---|---|---|---  
 `Runnable`|无|void|run|执行一个没有参数和返回值的操作|  
 `Supplier<T>`|无|T|get|提供一个T类型的值|  
 `Consumer<T>`|T|void|accept|处理一个T类型的值|chain  
