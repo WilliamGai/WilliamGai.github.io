@@ -1,7 +1,9 @@
 ### 在StreamAPI中经常使用的函数式接口  
-函数式接口 | 参数类型 |返回类型 |描述
+函数式接口 | 参数类型 |返回类型 |描述  
 ---|---|---|---  
 `Supplier<T>`|无|T|提供一个T类型的值  
+
+
 `Consumer<T>` | T |void |处理一个T类型的值  
 `BiConsumer<T,U>` | T, U | void|处理T类型和U类型的值  
 `Predicate<T>`|T|boolean|一个计算Boolean值的函数  
