@@ -214,7 +214,7 @@
 [由浅入深写java分布式(3) dubbo admin监控dubbo 以及外网consumer找不到provider的问题](http://blog.csdn.net/kkgbn/article/details/55509573)  
 [由浅入深写java分布式(2) spring boot + dubbo + zookeeper详解](http://blog.csdn.net/kkgbn/article/details/55508267)  
 [由浅入深写java分布式(1)动态代理](http://blog.csdn.net/kkgbn/article/details/55260560)  
-[linxu zookeeper 安装](http://blog.csdn.net/kkgbn/article/details/55182514)  
+[linxu zookeeper 安装](http://blog.csdn.net/kkgbn/article/details/75807963)  
 [沈洵:分布式事务原理与实践之单机事务](http://blog.csdn.net/kkgbn/article/details/54021607)  
 [沈洵:分布式事务原理与实践之多机事务](http://blog.csdn.net/kkgbn/article/details/54809856)  
 [分布式（集群）与集群的联系与区别（2015-04-09 11:22）](http://blog.csdn.net/kkgbn/article/details/44957455)  
