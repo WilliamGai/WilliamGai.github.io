@@ -35,3 +35,7 @@ tail -200f /usr/local/nginx/logs/error.log
 
 net连接数  
 netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
+
+监控端口TCP状态
+netstat -anc|grep 3999  
+
