@@ -1,5 +1,6 @@
 [https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-4.html#jvms-4.3](https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-4.html#jvms-4.3)
 
+Java8
 
 类型 | 字符 | 含义
 ---|---|---
@@ -16,7 +17,7 @@ reference| [| 数组
 void |V |返回空
 
 
-
+Java6
 
 Element Type|Encoding
 ---|---
@@ -29,3 +30,4 @@ float	 |  	F
 int	   |	I
 long   |	J
 short  |   	S
+
