@@ -52,4 +52,26 @@ mysql> show master status;
 +------------------+----------+--------------+------------------+-------------------+
 1 row in set (0.00 sec)
 
+[root@rabbit1 mysql]# ll
+total 176172
+-rw-rw---- 1 mysql mysql       56 Jan  8  2017 auto.cnf
+drwx------ 2 mysql mysql     4096 Feb 26 17:35 canal_test
+drwx------ 2 mysql mysql     4096 Feb 26 17:47 canal_test2
+drwx------ 2 mysql mysql     4096 May 19  2017 db_demo
+-rw-rw---- 1 mysql mysql 79691776 Feb 26 19:29 ibdata1
+-rw-rw---- 1 mysql mysql 50331648 Feb 26 19:29 ib_logfile0
+-rw-rw---- 1 mysql mysql 50331648 Jan  8  2017 ib_logfile1
+drwx------ 2 mysql mysql     4096 Feb 26 03:16 mysql
+-rw-rw---- 1 mysql mysql      120 Feb 26 19:29 mysql-bin.000001
+-rw-rw---- 1 mysql mysql       19 Feb 26 19:29 mysql-bin.index
+srwxrwxrwx 1 mysql mysql        0 Feb 26 19:29 mysql.sock
+drwx------ 2 mysql mysql     4096 Jan  8  2017 performance_schema
+drwx------ 2 mysql mysql     4096 Oct 27 10:01 test
+
+
 ```
+
+
+
+
+
