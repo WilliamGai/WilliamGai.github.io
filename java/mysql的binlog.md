@@ -20,6 +20,8 @@ mysql> show variables like 'log_%';
 13 rows in set (0.00 sec)
 ```
 
+
+
 设置 /etc/my.cf后
 ```
 mysql> show variables like 'log_%';
