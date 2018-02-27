@@ -67,8 +67,49 @@ drwx------ 2 mysql mysql     4096 Feb 26 03:16 mysql
 srwxrwxrwx 1 mysql mysql        0 Feb 26 19:29 mysql.sock
 drwx------ 2 mysql mysql     4096 Jan  8  2017 performance_schema
 drwx------ 2 mysql mysql     4096 Oct 27 10:01 test
+```
 
-
+## 查看日志binlog
+```
+[root@rabbit1 mysql]# mysqlbinlog mysql-bin.000001 
+/*!50530 SET @@SESSION.PSEUDO_SLAVE_MODE=1*/;
+/*!40019 SET @@session.max_insert_delayed_threads=0*/;
+/*!50003 SET @OLD_COMPLETION_TYPE=@@COMPLETION_TYPE,COMPLETION_TYPE=0*/;
+DELIMITER /*!*/;
+# at 4
+#180226 19:29:55 server id 1  end_log_pos 120 CRC32 0xc2bc70ca  Start: binlog v 4, server v 5.6.35-log created 180226 19:29:55 at startup
+# Warning: this binlog is either in use or was not closed properly.
+ROLLBACK/*!*/;
+BINLOG '
+s++TWg8BAAAAdAAAAHgAAAABAAQANS42LjM1LWxvZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAACz75NaEzgNAAgAEgAEBAQEEgAAXAAEGggAAAAICAgCAAAACgoKGRkAAcpw
+vMI=
+'/*!*/;
+# at 120
+#180227 12:00:30 server id 1  end_log_pos 603 CRC32 0x04ef1abf  Query   thread_id=11    exec_time=0     error_code=0
+use `canal_test`/*!*/;
+SET TIMESTAMP=1519704030/*!*/;
+SET @@session.pseudo_thread_id=11/*!*/;
+SET @@session.foreign_key_checks=1, @@session.sql_auto_is_null=0, @@session.unique_checks=1, @@session.autocommit=1/*!*/;
+SET @@session.sql_mode=1075838976/*!*/;
+SET @@session.auto_increment_increment=1, @@session.auto_increment_offset=1/*!*/;
+/*!\C utf8mb4 *//*!*/;
+SET @@session.character_set_client=45,@@session.collation_connection=45,@@session.collation_server=8/*!*/;
+SET @@session.lc_time_names=0/*!*/;
+SET @@session.collation_database=DEFAULT/*!*/;
+CREATE TABLE `t_user` (
+  `id` int(11) NOT NULL,
+  `name` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `updatetime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '时间随时更新',
+  `createtime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '时间是创建的时间，不随时更新'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
+/*!*/;
+DELIMITER ;
+# End of log file
+ROLLBACK /* added by mysqlbinlog */;
+/*!50003 SET COMPLETION_TYPE=@OLD_COMPLETION_TYPE*/;
+/*!50530 SET @@SESSION.PSEUDO_SLAVE_MODE=0*/;
+[root@rabbit1 mysql]# 
 ```
 
 
