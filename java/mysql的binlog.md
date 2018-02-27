@@ -140,4 +140,33 @@ mysql>
 ```
 
 
+## 查看binlogformat
+```
+mysql> show variables like '%binlog%';
++-----------------------------------------+----------------------+
+| Variable_name                           | Value                |
++-----------------------------------------+----------------------+
+| binlog_cache_size                       | 32768                |
+| binlog_checksum                         | CRC32                |
+| binlog_direct_non_transactional_updates | OFF                  |
+| binlog_error_action                     | IGNORE_ERROR         |
+| binlog_format                           | STATEMENT            |
+| binlog_gtid_simple_recovery             | OFF                  |
+| binlog_max_flush_queue_time             | 0                    |
+| binlog_order_commits                    | ON                   |
+| binlog_row_image                        | FULL                 |
+| binlog_rows_query_log_events            | OFF                  |
+| binlog_stmt_cache_size                  | 32768                |
+| binlogging_impossible_mode              | IGNORE_ERROR         |
+| innodb_api_enable_binlog                | OFF                  |
+| innodb_locks_unsafe_for_binlog          | OFF                  |
+| max_binlog_cache_size                   | 18446744073709547520 |
+| max_binlog_size                         | 1073741824           |
+| max_binlog_stmt_cache_size              | 18446744073709547520 |
+| simplified_binlog_gtid_recovery         | OFF                  |
+| sync_binlog                             | 0                    |
++-----------------------------------------+----------------------+
+19 rows in set (0.00 sec)
 
+mysql> 
+```
