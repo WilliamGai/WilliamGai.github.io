@@ -1,3 +1,4 @@
+## 查看binlog状态
 ```
 mysql> show variables like 'log_%';
 +----------------------------------------+---------------------+
@@ -186,6 +187,54 @@ mysql> show variables like '%binlog%';
 | sync_binlog                             | 0                    |
 +-----------------------------------------+----------------------+
 19 rows in set (0.00 sec)
+
+mysql> 
+```
+
+## 查看MySQL用户权限
+```
+mysql> select host,user,password from mysql.user;
++-------------------------+--------+-------------------------------------------+
+| host                    | user   | password                                  |
++-------------------------+--------+-------------------------------------------+
+| localhost               | root   | *81F5E21E35407D884A6CD4A731AEBFB6AF209E1B |
+| iz2zei0nwllapkwklisoncz | root   |                                           |
+| 127.0.0.1               | root   |                                           |
+| ::1                     | root   |                                           |
+| localhost               |        |                                           |
+| iz2zei0nwllapkwklisoncz |        |                                           |
+| %                       | root   | *81F5E21E35407D884A6CD4A731AEBFB6AF209E1B |
+| %                       | mysqld | *83D34C89B8E0F100D54C6D9276D357DB43E8779F |
+| %                       | server | *866D5A029D62EC05ACC4584CE50F1CD2F50E0E82 |
++-------------------------+--------+-------------------------------------------+
+9 rows in set (0.16 sec)
+
+mysql> CREATE USER canal IDENTIFIED BY 'canal';  
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'canal'@'%';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> -- GRANT ALL PRIVILEGES ON *.* TO 'canal'@'%' ;
+mysql> FLUSH PRIVILEGES;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> select host,user,password from mysql.user;
++-------------------------+--------+-------------------------------------------+
+| host                    | user   | password                                  |
++-------------------------+--------+-------------------------------------------+
+| localhost               | root   | *81F5E21E35407D884A6CD4A731AEBFB6AF209E1B |
+| iz2zei0nwllapkwklisoncz | root   |                                           |
+| 127.0.0.1               | root   |                                           |
+| ::1                     | root   |                                           |
+| localhost               |        |                                           |
+| iz2zei0nwllapkwklisoncz |        |                                           |
+| %                       | root   | *81F5E21E35407D884A6CD4A731AEBFB6AF209E1B |
+| %                       | mysqld | *83D34C89B8E0F100D54C6D9276D357DB43E8779F |
+| %                       | server | *866D5A029D62EC05ACC4584CE50F1CD2F50E0E82 |
+| %                       | canal  | *E3619321C1A937C46A0D8BD1DAC39F93B27D4458 |
++-------------------------+--------+-------------------------------------------+
+10 rows in set (0.00 sec)
 
 mysql> 
 ```
