@@ -10,3 +10,5 @@
 |   搜索文本    |  Ctrl + h  
 |   搜索类  |  shift  + command + T 
 |   搜索方法或者类         |  双击shift
+|  --------         |  -----
+|   find usage         |  shift + command + G
