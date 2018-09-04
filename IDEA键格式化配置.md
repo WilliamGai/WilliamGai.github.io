@@ -1,3 +1,3 @@
 ## 快捷键
 
-  ![image](imgs/屏幕快照 2018-09-04 下午4.19.46.png)
+  ![image](imgs/IDEA_geshihua.png)
