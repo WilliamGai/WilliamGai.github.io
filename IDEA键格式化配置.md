@@ -1,4 +1,4 @@
-## 快捷键
+## 格式化配置
   https://github.com/WilliamGai/WilliamGai.github.io/blob/master/google-code-style-idea.xml
 
   ![image](imgs/IDEA_geshihua.png)
