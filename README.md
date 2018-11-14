@@ -244,6 +244,7 @@
 [log4j和logback冲突 mvn](http://blog.csdn.net/kkgbn/article/details/55194940)  
 [git(2) git pull特别慢的解决方法](http://blog.csdn.net/kkgbn/article/details/54351787)  
 [git(1) git 快速入门，如何提交自己的工程](http://blog.csdn.net/kkgbn/article/details/53871379)  
+[git(3) github和gitlab共存](https://blog.csdn.net/kkgbn/article/details/78525124)
 
 ---  
 ### Python  
