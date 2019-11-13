@@ -1,0 +1,109 @@
+git 相关的操作
+
+0.普通操作
+echo "# srpc" >> README.md
+git init
+git commit -m "first commit"
+git remote add origin git@github.com:WilliamGai/srpc.git
+git push -u origin master
+
+1.检出分支
+git checkout -b 171123_delete_sms_wechat
+
+
+2.分支舍弃修改重置为master
+
+  512  cd scalper/
+  513  git checkout master
+  514  pwd
+  515  git branch
+  516  git branch -D 20171114_clean_msg_codes
+  517  git branch
+  518  git remove
+  519  git remote
+  520  git remote -V
+  521  git remote -v
+  522  git fetch origin master
+  523  git rebase origin/master
+  524  git log
+
+
+3. 删除远程的仓库内容（比如安全问题）从本地重新提上去
+重建远程仓库后
+git init
+git remote add origin git@github.com:WilliamGai/s-samples.git
+然后share project
+
+
+4.  检查对接的别人的项目，切换到别人的分支
+BAOdeMacBook-Pro:invoker bao$ git checkout -b CLASSPLANT-83-classroom-migrate
+Switched to a new branch 'CLASSPLANT-83-classroom-migrate'
+BAOdeMacBook-Pro:invoker bao$ git remote -v
+origin	ssh://git@code.vipkid.com.cn:3590/alchemy/invoker.git (fetch)
+origin	ssh://git@code.vipkid.com.cn:3590/alchemy/invoker.git (push)
+BAOdeMacBook-Pro:invoker bao$ git fetch origin CLASSPLANT-83-classroom-migrate
+
+remote: Counting objects: 183, done.
+remote: Compressing objects: 100% (135/135), done.
+remote: Total 183 (delta 62), reused 62 (delta 12)
+Receiving objects: 100% (183/183), 67.79 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (62/62), done.
+From ssh://code.vipkid.com.cn:3590/alchemy/invoker
+ * branch            CLASSPLANT-83-classroom-migrate -> FETCH_HEAD
+ * [new branch]      CLASSPLANT-83-classroom-migrate -> origin/CLASSPLANT-83-classroom-migrate
+BAOdeMacBook-Pro:invoker bao$ 
+BAOdeMacBook-Pro:invoker bao$ git reset origin/CLASSPLANT-83-classroom-migrate --hard
+HEAD is now at eaf5a69 Merge branch 'CLASSPLANT-83-classroom-migrate' into 'CLASSPLANT-83-classroom-migrate'
+BAOdeMacBook-Pro:invoker bao$ git log
+
+
+5.rebase 别人的分支已经合并到maseter 自己的本地master不是最新的
+git remote -v
+git status
+checkout master
+git pull
+git checkout 171127_call_invoker_api
+git rebase master
+
+5.2 5的git pull会产生merge
+当前分支下
+git fetch origin master
+git rebase origin/master 
+
+  629  git add src/main/java/com/vipkid/scalper/search/controller/PublicSideLearningProgressController.java
+  630  git status
+  631  git commit
+  632  git status
+  633  git push origin 171210_list_by_lasteditor
+
+5.3 rebase的时候冲突了
+5.2后失败可能有冲突的时候
+git push origin 171127_call_invoker_api -f cd
+
+git push origin 171211_zhaomuke -f
+
+
+6. 【新流程】拉取远程新建的分支
+git checkout --track origin/181114_hi_TIANYUE-143
+
+7.  强制覆盖本地
+fetch --all
+git reset --hard origin/master
+git pull
+
+
+8.多个commit 合并为一个
+  523  git log
+  524  git reset 4cd75676365df6867bc5aa30f801fdc999a38e50
+  525  git status
+  526  git add .
+  527  git commit -m "OPEN4"
+  528  git log
+  529  git push -f
+
+
+9 git rebase 重复了
+将冲突的文件异常解决掉
+然后add
+然后git rebase —continue
+最后git push -f
