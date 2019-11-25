@@ -107,3 +107,17 @@ git pull
 然后add
 然后git rebase —continue
 最后git push -f
+
+
+==============--------------------====================----------------------===================-----------------=====
+       git fetch 
+
+  271  git checkout qa
+
+  272  git branch
+
+  273  git checkout -b qa_1203
+
+  274  git branch
+
+  275  git push origin qa_1203
